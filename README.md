@@ -1,1 +1,0 @@
-# hexschool_task2
