@@ -150,12 +150,6 @@ table {
     margin-bottom: 80px;
 }
 
-.card {
-    background: white;
-    width: 636px;
-}
-
-
 
 img {
     max-width: 100%;
@@ -164,7 +158,6 @@ img {
     border-radius: 8px;
     border: 1px solid #F1F1F1;
 }
-
 
 
 .detail {
@@ -204,4 +197,41 @@ h2 {
     padding: 4px 12px;
     gap: 10px;
     margin-right: 16px;
+}
+
+.page {
+    margin: 0 auto;
+}
+
+.page ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+}
+
+.page li {
+    color: black;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.page .selected {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    margin: 32px auto;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
 }
