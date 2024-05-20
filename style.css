@@ -237,3 +237,39 @@ h2 {
     flex-wrap: wrap;
     column-gap: 40px;
 }
+
+.banner {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.banner-detail {
+    display: flex;
+}
+
+.banner-content {
+    width: 670px;
+    height: 192px;
+    padding-top: 80px;
+}
+
+.banner-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-top {
+    margin-bottom: 16px;
+}
+
+.quote-right {
+    float: right;
+}
