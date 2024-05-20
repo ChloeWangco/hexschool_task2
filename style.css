@@ -252,12 +252,16 @@ h4 {
 
 .banner-detail {
     display: flex;
+    margin-bottom: 80px;
+    width: 670px;
+    justify-content: space-around;
 }
 
 .banner-content {
     width: 670px;
     height: 192px;
     padding-top: 80px;
+    margin-bottom: 24px;
 }
 
 .banner-quote {
@@ -272,4 +276,11 @@ h4 {
 
 .quote-right {
     float: right;
+}
+
+.banner-detail-box {
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
