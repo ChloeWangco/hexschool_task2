@@ -271,7 +271,7 @@ h4 {
 }
 
 .quote {
-    z-index:1;
+    z-index: 1;
 }
 
 .quote-top {
@@ -314,15 +314,27 @@ h4 {
 }
 
 .mark-top {
-    position:absolute;
-    z-index:0;
-    left:1030px;
-    top:280px;
+    position: absolute;
+    z-index: 0;
+    left: 1030px;
+    top: 280px;
 }
 
 .mark-bottom {
-    position:absolute;
-    z-index:0;
-    left:1010px;
-    top:325px;
+    position: absolute;
+    z-index: 0;
+    left: 1010px;
+    top: 325px;
+}
+
+.selected {
+    font-weight: 600;
+
+    padding: 8px;
+    border: 1px solid #919191;
+    
+    --s: 8px;
+    -webkit-mask:
+        conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+        linear-gradient(#000 0 0) content-box;
 }
