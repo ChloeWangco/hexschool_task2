@@ -338,3 +338,24 @@ h4 {
         conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0/calc(100% - var(--s)) calc(100% - var(--s)),
         linear-gradient(#000 0 0) content-box;
 }
+
+.footer-image {
+    position: absolute;
+    z-index: -1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-content-left {
+    margin-top: 119px;
+    margin-bottom: 119px;
+}
+
+.footer-content-left-text {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
