@@ -201,17 +201,17 @@ h2 {
 
 .page {
     margin: 0 auto;
+    color: black;
 }
 
-.page ul {
+.page-numbers {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 16px;
 }
 
-.page li {
-    color: black;
+.numbers {
     font-size: 24px;
     width: 40px;
     height: 40px;
@@ -219,9 +219,9 @@ h2 {
     text-align: center;
 }
 
-.page .selected {
-    background-color: black;
+.page-current {
     color: white;
+    background-color: #1E1E1E;
 }
 
 .navbar {
