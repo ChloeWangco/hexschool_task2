@@ -284,3 +284,17 @@ h4 {
     flex-direction: column;
     align-items: center;
 }
+
+.logo {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-options {
+    width: 33.3%;
+}
+
+.navbar-empty {
+    width: 33.3%;
+}
