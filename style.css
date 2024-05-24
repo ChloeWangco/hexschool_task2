@@ -512,10 +512,17 @@ h4 {
         justify-content: center;
     }
 
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
 
-    .footer {
-        visibility: hidden;
-        height: 0px;
+    .footer-content-left {
+        margin: 0;
+    }
+
+    .footer-image {
+        content:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true");
     }
 
 }
