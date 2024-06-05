@@ -160,7 +160,6 @@ img {
     height: auto;
     vertical-align: middle;
     border-radius: 8px;
-    border: 1px solid #F1F1F1;
 }
 
 
@@ -178,9 +177,7 @@ img {
 
 body {
     font-family: "Noto Sans TC", sans-serif;
-    font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
 }
 
 h2 {
@@ -267,9 +264,7 @@ h4 {
 }
 
 .banner-quote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center
 }
 
 .quote {
