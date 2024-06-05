@@ -132,7 +132,6 @@ table {
 }
 
 .container {
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -180,7 +179,7 @@ body {
     line-height: 1.5;
 }
 
-h2 {
+h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 1.2;
@@ -246,7 +245,7 @@ h2 {
     align-items: center;
 }
 
-h4 {
+h2 {
     font-size: 24px;
     line-height: 28.8px;
 }
@@ -406,6 +405,21 @@ h4 {
 }
 
 
+
+@media(max-width: 1250px) {
+    .mark-top {
+        display: none;
+
+    }
+    
+    .mark-bottom {
+        display: none;
+    }
+}
+
+
+
+
 @media (max-width: 375px) {
     .container {
         max-width: 375px;
@@ -510,7 +524,7 @@ h4 {
         margin-bottom: 48px;
     }
 
-    h2 {
+    h1 {
         font-size: 20px;
     }
 
