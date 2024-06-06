@@ -137,7 +137,7 @@ table {
 
 
 .wrap {
-    max-width: 1296px;
+    max-width: 67%;
     margin: 120px auto;
     padding: 0 12px;
 }
@@ -424,16 +424,27 @@ h2 {
     }
 }
 
+@media (max-width: 344px) {
+    .card {
+        max-width: 90%;
+    }
+
+    .banner-detail {
+        margin-bottom: 0px;
+        margin-top: 40px
+    }
+
+}
 
 
 @media (max-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
     .wrap {
-        max-width: 768px;
+        max-width: 100%;
         margin: 80px auto;
     }
 
@@ -469,7 +480,7 @@ h2 {
         width: 80%;
         padding: 40px 37.5px;
         margin-bottom: 0px;
-        max-width: 370px;
+        max-width: 50%;
     }
 
     .quote-left {
@@ -502,7 +513,7 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 375px;
+        max-width: 100%;
     }
 
     .banner-detail-box {
@@ -523,6 +534,8 @@ h2 {
 
     .card-group {
         flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 
     .card {
@@ -587,6 +600,4 @@ h2 {
         margin: 40px auto;
     }
 
-
-    </style>
 }
